@@ -2,7 +2,7 @@ pipeline {
     agent any
 
      stages {
-        stage('Get Code') {
+        stage('Dame el codigo') {
             steps {
                 // Obtener código del repo
                 //git 'https://github.com/anieto-unir/helloworld.git'
